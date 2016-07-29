@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <title>Spot the Dog!</title>
+  </head>
+  <body>
+    <div class="all">
+
+      <div class="heading">
+        <h1>Where Is <strong>Momo</strong> Hiding?</h1>
+        <p>There is a dog (Border Collie) hiding in 3 of the following pictures. Can you spot the one <span>without</span> Momo? If you think you have found it, just click on the image!</p>
+      </div>
+
+      <div class="body">
+        <img src="pictures/pic1.jpg" title="Where is the dog?" onclick="loser()"/>
+        <img src="pictures/pic2.jpg" title="Is there a dog?" onclick="loser()"/>
+        <img src="pictures/pic3.jpg" title="Look carefully!" onclick="winner()"/>
+        <img src="pictures/pic4.jpg" title="Find Momo - if he is here!" onclick="loser()"/>
+      </div>
+  
+    <script>
+    function winner() {
+    alert("Congratulations!\nYou have very good eyes! :)");
+}
+    function loser() {
+	alert("Look harder and you will find Momo in this picture!")
+}
+    </script>
+
+      <div class="footer">
+          <a href= "http://gofindmomo.com/" target="_blank">Click <br><span id="big">HERE</span><br> to find more Momo</a>
+      </div>
+
+    </div>
+    <div class="footer2">&copy sugartimi</div>
+  </body>
+
+<html>

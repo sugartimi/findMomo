@@ -1,0 +1,88 @@
+h1 {
+	color: gold;
+	font-size: 50px;
+	font-family: 'Batang', sans-serif;
+	text-align: center;
+}
+
+.heading {
+	margin:auto;
+	text-align: center;
+	padding-top: 15px;
+}
+
+p {
+	font-family: 'Georgia', sans-serif;
+	font-size: 22px;
+	color: black;
+    margin-left: 35px;
+    margin-right: 25px;
+    text-align: left;
+}
+
+div.all {
+	background-color: ivory;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 555px;
+	height: 555px;
+	padding: 30px;
+	border: 2px solid black;
+	margin: 20px 20px;
+}
+
+.body {
+	display: inline;
+	margin: auto;
+	position: relative;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div.footer {
+	height: 100px;
+	width:150px;
+	text-align: center;
+	border-radius: 25px;
+	background-color: gold;
+	border: 4px dotted black;
+	margin: auto;
+}
+
+div.footer a {
+	text-decoration: none;
+    color: black;
+    font-family: 'Georgia';
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+	text-decoration: underline;
+}
+
+#big {
+    font-family: 'Georgia', sans-serif;
+	font-size: 26px;
+	color: black;
+} 
+
+.footer2 {
+	float: left;
+	font-size: 14px;
+	font-family: 'Georgia', serif;
+	clear: both;
+	color: darkSlaterGray;
+	margin: 20px;
+	background-color: ivory;
+}
